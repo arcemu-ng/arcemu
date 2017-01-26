@@ -125,7 +125,7 @@ enum AccountFlags
     ACCOUNT_FLAG_XPACK_02	= 0x10,
 };
 
-#pragma pack(push,STORAGE_ALIGNMENT)
+#pragma pack(push,1)
 struct MapInfo
 {
 	uint32 mapid;

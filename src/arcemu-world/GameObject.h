@@ -72,7 +72,7 @@ enum GAMEOBJECT_OVERRIDES //by VLack
 typedef HM_NAMESPACE::hash_map<Quest*, uint32 > GameObjectGOMap;
 typedef HM_NAMESPACE::hash_map<Quest*, std::map<uint32, uint32> > GameObjectItemMap;
 
-#pragma pack(push,STORAGE_ALIGNMENT)
+#pragma pack(push,1)
 struct GameObjectInfo
 {
 	uint32 ID;

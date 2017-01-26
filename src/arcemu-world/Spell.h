@@ -33,13 +33,12 @@ class Item;
 class Group;
 class Aura;
 
-#pragma pack(push,STORAGE_ALIGNMENT)
+
 struct SpellClickSpell
 {
 	uint32 CreatureID;
 	uint32 SpellID;
 };
-#pragma pack(pop)
 
 /* Spell Ranges:(for 1.10.2)
 Range ID|Range|Description
@@ -737,7 +736,7 @@ enum PreventionType
 #define SPELL_RANGED_THROW      2764
 #define SPELL_RANGED_WAND       5019
 
-#pragma pack(push,STORAGE_ALIGNMENT)
+#pragma pack(push,1)
 struct TeleportCoords
 {
 	uint32 id;

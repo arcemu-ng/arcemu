@@ -33,7 +33,7 @@ enum AreaTriggerType
     ATTYPE_BATTLEGROUND = 6,
 };
 
-#pragma pack(push,STORAGE_ALIGNMENT)
+#pragma pack(push,1)
 typedef struct AreaTrigger
 {
 	uint32 AreaTriggerID;
